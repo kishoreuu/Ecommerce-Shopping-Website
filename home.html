@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            border: 5px solid;
+            border-radius: 90px;
+            background-image: url("clothing.jpeg");
+            background-repeat: no-repeat;
+            background-attachment:unset;
+            background-size :100%;
+        }
+        h1{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(243, 41, 135);
+        } 
+        select{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        nav {
+            background-color: #7c2be7;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma;
+        }
+        nav a{
+            display: inline-block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover{
+            background-color: rgb(243, 41, 135);
+        }
+        select{
+            background-color: #e72b2b;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden; 
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(227, 32, 32);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.content{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(235, 22, 22);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+       <h1><center>Shoppers stock..!!</center></h1>
+       <nav>
+      <a href="#home">HOME</a>
+      <a href="aboutus.html">ABOUT US</a>
+      <div class="dropdown">
+        <button class="dropbtn">COLLECTIONS
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="menswear.html">Mens Wear</a>
+          <a href="womenswear.html">Womens Wear</a>
+          <a href="kidswear.html">Kids wear</a>
+          <a href="footwear.html">Footwear</a>
+          <a href="jwellery.html">Jwellery</a>
+        </div>
+      </div> 
+    </div>
+      <a href="contactus.html">CONTACT</a>
+    </nav>
+    </header>
+    <p><h3><marquee>Celebrating with brighter collections with min 20% off on any item.Hurry up,Sale is live now grab is faster...!!</marquee></h3></p>
+    <div class="content">
+    <h2>Welcome to my Website..!!</h2>
+  </div>
+</body>
+</html>
